@@ -6,16 +6,18 @@ verify_ssl: false
 check_availability: true
 concurrency: 10
 
+
 filters:
   name: ""
   user_type: 2
   apply_scope: "personal"
   districts: ["徐汇区", "杨浦区", "闵行区"]
   only_stations: []
- date_from: "2026-11-11"
-date_to: "2026-11-20"
+  date_from: "2026-11-11"
+  date_to: "2026-11-20"
   min_house_count: 0
   min_apply_number: 1
+
   
 
 notify:
