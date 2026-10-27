@@ -6,7 +6,6 @@ verify_ssl: false
 check_availability: true
 concurrency: 10
 
-
 filters:
   name: ""
   user_type: 2
@@ -18,10 +17,8 @@ filters:
   min_house_count: 0
   min_apply_number: 1
 
-  
-
 notify:
   type: "bark"
-  url: ""          # 由环境变量 QNYZ_NOTIFY_URL 注入
+  url: ""
 
 log_file: ""
